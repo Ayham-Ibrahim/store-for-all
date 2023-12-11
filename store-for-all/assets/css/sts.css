@@ -1,0 +1,600 @@
+/*------------------home && Namvbar ---------------*/
+nav{
+  height: 71px; 
+}
+
+.UserNav{
+  background-color: rgb(255, 255, 255);
+  border: 1px darkgrey solid;  
+  height: 58px;
+
+}
+.LogRegNav{
+  background-color: rgb(255, 255, 255);
+  border: 1px darkgrey solid;  
+  height: 58px;
+}
+section{
+  position: relative;
+}
+.navbar-brand{
+  display: block ruby;
+}
+
+section h1{
+    position: absolute;
+    left: 2%;
+    top:40%;
+    font-size: 58px;
+    font-weight: 600;
+    color: rgb(54, 54, 54);
+    letter-spacing: 3px; 
+    border: 2px rgb(54, 54, 54) solid ;
+    padding: 4px;   
+}
+.collapse .home{
+  margin-left: 30px;
+  font-size: 19px;
+}
+.navbar-nav .btn-link{
+  color: black;
+  font-size: 20px;
+}
+
+
+
+/*------------------ ---------------*/
+.product .card{
+  margin-right: 20px;
+  width: 18rem; 
+  border-radius:0px !important; 
+} 
+.product .container{
+  overflow: scroll; 
+}
+.product .row{
+  width: 160% !important;
+  border-top: 2px gray solid;
+  padding-top: 23px;
+  
+}
+@media screen and (max-width: 700px) {
+  .product .card{
+    width:40% ;
+  }
+ 
+  
+  .card-title{
+    font-size: 17px;
+    font-weight: 600;  
+  }
+  .card-text{
+    font-size: 13px;
+
+  }
+  .product .container{
+    overflow: scroll; 
+  }
+  .product .row{
+    width: 120%;
+    border-top: 2px gray solid;
+    padding-top: 23px;
+    
+  }
+  .delete-pro-btn{
+    color: rgb(255, 0, 0) !important;
+   text-decoration: underline;
+  }
+ 
+}
+/* ----------------------Home page product----------------------------- */
+.user_product{
+  margin-top: 7%; 
+}
+.user_product .card{
+  width: 18rem; 
+  border-radius:0px !important; 
+}
+.user_product .col-4{
+  max-width: 100% !important;
+} 
+.user_product .col-3{
+  margin-right: 20px;
+}
+.pbtn{
+  display: inline;
+}
+/* ----------------------labtop categoy style------------------------------ */
+
+.Laptop{
+  margin-top: 7%;
+}
+.Laptop .card{
+  width: 18rem; 
+  border-radius:0px !important; 
+} 
+.Laptop .col-4{
+  max-width: 100% !important;
+} 
+.Laptop .col-3{
+  margin-right: 20px;
+}
+.Laptop .pbtn{
+  display: inline;
+}
+/* ----------------------mobile categoy style------------------------------ */
+.Mobiles{
+  margin-top: 7%;
+}
+.Mobiles .card{
+  width: 18rem; 
+  border-radius:0px !important; 
+} 
+.Mobiles .col-4{
+  max-width: 100% !important;
+} 
+.Mobiles .col-3{
+  margin-right: 20px;
+}
+.Mobiles .pbtn{
+  display: inline;
+}
+/* ----------------------Shoes categoy style------------------------------ */
+.Shoes{
+  margin-top: 7%;
+}
+.Shoes .card{
+  width: 18rem; 
+  border-radius:0px !important; 
+} 
+.Shoes .col-4{
+  max-width: 100% !important;
+} 
+.Shoes .col-3{
+  margin-right: 20px;
+}
+.Shoes .pbtn{
+  display: inline;
+}
+/* ----------------------clothes categoy style------------------------------ */
+.clothes{
+  margin-top: 7%;
+}
+.clothes .card{
+  width: 18rem; 
+  border-radius:0px !important; 
+} 
+.clothes .col-4{
+  max-width: 100% !important;
+}
+.clothes .col-3{
+  margin-right: 20px;
+}
+.clothes .pbtn{
+  display: inline;
+}
+/* ----------------------Headphones categoy style------------------------------ */
+.Headphones{
+  margin-top: 7%;
+}
+.Headphones .card{
+  width: 18rem; 
+  border-radius:0px !important; 
+} 
+.Headphones .col-4{
+  max-width: 100% !important;
+}
+.Headphones .col-3{
+  margin-right: 20px;
+}
+.Headphones .pbtn{
+  display: inline;
+}
+/* ----------------------Keyboards&Mouse categoy style------------------------------ */
+.Keyboards-Mouse{
+  margin-top: 7%;
+}
+.Keyboards-Mouse .card{
+  width: 18rem; 
+  border-radius:0px !important; 
+} 
+.Keyboards-Mouse .col-4{
+  max-width: 100% !important;
+}
+.Keyboards-Mouse .col-3{
+  margin-right: 20px;
+}
+.Keyboards-Mouse .pbtn{
+  display: inline;
+}
+
+/* ---------------------------------------------------- */
+.delete-pro-btn{
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  font-weight: 500;
+  margin: 14px;
+  font-family: Georgia;
+  border-radius: 5px;
+  padding: 5px;
+}
+.delete-pro-btn:hover{
+  color: red;
+  text-decoration: underline;
+}
+/*------------------login&&register ---------------*/
+
+
+/* .login .container{
+  position: absolute;
+  top: 0;
+  left: 10%;
+  z-index: 100;
+  
+  
+} */
+.reg {
+  padding-bottom: 0 !important;
+}
+.log{
+  
+  padding-top: 0 !important;
+  margin-top: 100px !important;
+}
+.log .card-body{
+  
+  padding: 40px !important;
+}
+.form-box{
+  width: auto;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+ 
+}
+.card{
+  border-radius: 2.25rem !important;
+}
+.card-body{
+  padding: 15px !important;
+}
+.input-box{
+  position: relative;
+  border-bottom: 2px solid black; 
+  margin: 40px 0;
+  margin-right: 10px;  
+}
+.container{
+  position:relative;
+  margin: auto;
+  width:fit-content;
+
+   
+}
+
+.input-box label{
+  position: absolute;
+  top:50%;
+  left: 1%;
+  transform: translateY(-50%);
+  font-size: 1em;
+  color: rgb(34, 34, 34);
+  font-weight: 500;
+  pointer-events: none;
+  transition: 0.8s;
+}
+.input-box input{
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border:none;
+  outline: none;
+  padding: 0 50px 0 5px;
+  color: rgb(63, 63, 63);
+  margin-bottom: 10px;
+
+  
+}
+.input-box .icon{
+  position:absolute;
+  right: 10px ;
+  
+  color:rgb(34, 34, 34);
+  font-size: 20px ;
+
+
+} 
+
+
+
+.input-box input:focus ~ label{
+  top : -10px;
+}
+.agree{
+  margin-bottom: 20px;
+}
+.btn{
+  background-color: black;
+  color: white;
+  width: 100%;
+  margin-top: 20px;
+
+  
+}
+.btn:hover{
+  margin-left: 3px;
+  background-color: black;
+  color: white;
+}
+.link{
+  text-decoration: none;
+}
+.link:hover{
+  text-decoration: underline;
+}
+.register-link{
+  text-decoration: none;
+}
+.login-link{
+  text-decoration: none;
+}
+.register-link:hover{
+  color:rgb(233, 95, 3) ;
+  text-decoration: underline;
+}
+.login-link:hover{
+  color:rgb(233, 95, 3) ;
+
+  text-decoration: underline;
+}
+.agree{
+  margin-bottom: -4px;
+}
+/*----------------------userpage----------------*/
+.user{
+    width: fit-content;
+
+}
+.custom-file{
+  margin-top:10px ;
+}
+.newp{
+  display: flex;
+} 
+.user form{
+  width: fit-content;
+  
+} 
+.newp .col-3{
+  padding-left: 0 !important;
+} 
+/* --------------------------- mobile mode------------------------------ */
+
+@media screen and (max-width: 700px) {
+  .user h5{
+    font-size: 28px !important;
+    margin-bottom: 10px;
+  }
+  .welcome{
+    display: flex !important;
+    font-size: 28px;
+  }
+  section h1{
+    display: none;
+  }
+
+  .user_product .row{
+    margin-top: 80px !important;
+  }
+  .ProCol{
+    max-width: 100%;
+   margin: auto;
+   margin-top: 10px;
+  }
+  .Laptop .row{
+    margin-top: 80px !important;
+  }
+  .Mobiles .row{
+    margin-top: 80px !important;
+  }
+  .clothes .row{
+    margin-top: 80px !important;
+  }
+  .Shoes .row{
+    margin-top: 80px !important;
+  }
+  .Headphones .row{
+    margin-top: 80px !important;
+  }
+  .Keyboards-Mouse .row{
+    margin-top: 80px !important;
+  }
+  
+ 
+  .container-fluid a{
+    margin-top: -10px;
+  }
+  .homnav{
+    height: 55px;
+  }
+  .intro{ 
+    margin-top: 54px;
+  }
+   /* ---------------------------toggle in the navbar in mobile mode------------------------------ */
+
+  #mytoggler{
+    background-color: rgb(255, 255, 255) !important;
+    width: 55%;
+    padding: 6px;
+    margin: 0px;
+    right: 12px;
+    position: fixed;
+    top: 6%;
+    border: 1px gray solid !important;
+  }
+  .collapse .home{
+    margin-left: 16px;
+    font-size: 19px;
+    margin-bottom: 14px;
+  }
+  .add-pro-btn{
+    color: rgb(0, 0, 0) !important;
+    font-size: 18px !important;
+    font-weight: 500;
+    margin: 14px;
+      margin-top: 14px;
+    font-family: Georgia;
+    background-color: rgb(255, 255, 255) !important;
+    padding: 5px;
+    width: 92%;
+    border-top: 1px gray solid;
+    border-radius: 0px !important;
+  }
+  .add-pro-btn:hover{
+    text-decoration: none !important;
+    background-color: rgb(193, 193, 193) !important;
+  }
+}
+  
+/* --------------------------- tablet mode------------------------------ */
+
+@media screen and (min-width:700px) and (max-width: 900px) {
+  .user_product .row{
+    margin-top: 80px !important;
+  }
+  section h1{
+    font-size: 28px;  
+  }
+ 
+  .user_product .col-4{
+    max-width: 100%;
+   margin: auto;
+   margin-top: 10px;
+
+  }
+  .container-fluid a{
+    margin-top: -12px;
+  }
+  .homnav{
+    height: 55px;
+  }
+  .Laptop .row{
+    margin-top: 80px !important;
+  }
+  .Mobiles .row{
+    margin-top: 80px !important;
+  }
+  .clothes .row{
+    margin-top: 80px !important;
+  }
+  .Shoes .row{
+    margin-top: 80px !important;
+  }
+  .Headphones .row{
+    margin-top: 80px !important;
+  }
+  .Keyboards-Mouse .row{
+    margin-top: 80px !important;
+  }
+
+  .Laptop .col-4{
+    max-width: 100% !important;
+   margin: auto !important;
+   margin-top: 10px !important;
+  }
+  .Mobiles .col-4{
+    max-width: 100%;
+   margin: auto;
+   margin-top: 10px;
+  }
+  .clothes .col-4{
+    max-width: 100%;
+   margin: auto;
+   margin-top: 10px;
+  }
+  .Shoes .col-4{
+    max-width: 100%;
+   margin: auto;
+   margin-top: 10px;
+  }
+  .Headphones .col-4{
+    max-width: 100%;
+   margin: auto;
+   margin-top: 10px;
+  }
+  .Keyboards-Mouse .col-4{
+    max-width: 100%;
+   margin: auto;
+   margin-top: 10px;
+  }
+  /* ---------------------------toggle in the navbar in taplet mode------------------------------ */
+  #mytoggler{
+    background-color: rgb(255, 255, 255) !important;
+    width: 45% !important;
+    padding: 6px !important;
+    margin: 0px !important;
+    right: 12px !important;
+    position: fixed !important;
+    top: 5% !important;
+    border: 1px gray solid !important;
+
+  }
+  .collapse .home{
+    margin-left: 16px;
+    font-size: 19px;
+    margin-bottom: 14px;
+  }
+  .add-pro-btn{
+    color: rgb(0, 0, 0) !important;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 14px;
+      margin-top: 14px;
+    font-family: Georgia;
+    background-color: rgb(255, 255, 255) !important;
+    padding: 5px;
+    width: 92%;
+    border-top: 1px gray solid;
+    border-radius: 0px !important;
+  }
+  .add-pro-btn:hover{
+    text-decoration: none !important;
+    background-color: rgb(228, 228, 228) !important;
+  }
+  .delete-pro-btn:hover{
+    color: red;
+    text-decoration: underline;
+  }
+ 
+}
+.add-pro-btn{
+  color: rgb(255, 255, 255) ;
+
+  font-size: 20px;
+  font-weight: 500;
+  margin: 14px;
+  font-family: Georgia;
+  background-color: rgb(233, 95, 3);
+  border-radius: 5px;
+  padding: 5px;
+
+}
+.add-pro-btn:hover{
+  color: rgb(235, 235, 235);
+  text-decoration: none;
+  background-color: black;
+}
+.update-btn{
+  color: rgb(255, 255, 255) ;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 14px;
+  font-family: Georgia;
+  background-color: rgb(233, 95, 3);
+  border-radius: 5px;
+  padding: 5px;
+}
+.update-btn:hover{
+  color: rgb(235, 235, 235);
+  text-decoration: none;
+  background-color: black;
+}
